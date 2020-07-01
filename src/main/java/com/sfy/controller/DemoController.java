@@ -14,6 +14,6 @@ public class DemoController {
 
     @RequestMapping(method = RequestMethod.GET,path = "/getDemo")
     public String getDemo(){
-        return "demo1222";
+        return "demo1222222";
     }
 }
