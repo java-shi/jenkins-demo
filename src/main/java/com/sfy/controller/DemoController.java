@@ -16,4 +16,10 @@ public class DemoController {
     public String getDemo(){
         return "demo1222222";
     }
+
+
+    @RequestMapping(method = RequestMethod.GET,path = "/getUser")
+    public String getUser(){
+        return "SFY";
+    }
 }
